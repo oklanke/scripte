@@ -4,9 +4,9 @@ chcp 1252
 :Start
 cls
 mkdir c:\Rechner
-systeminfo > c:\Rechner\Rechner\%computername%_%Date%.txt
-getmac -v >> ..\Rechner\%computername%_%Date%.txt
-ipconfig /all >> ..\Rechner\%computername%_%Date%.txt
-gpresult /R >> ..\Rechner\%computername%_%Date%.txt
+systeminfo > c:\Rechner\%computername%_%Date%.txt
+getmac -v >> c:\Rechner\%computername%_%Date%.txt
+ipconfig /all >> c:\Rechner\%computername%_%Date%.txt
+gpresult /R >> c:\Rechner\%computername%_%Date%.txt
 pause
 :End
